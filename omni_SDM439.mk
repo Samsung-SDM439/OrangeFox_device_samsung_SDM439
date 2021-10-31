@@ -26,8 +26,6 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit language packages
 $(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
 
-PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,device/samsung/m01q/recovery/root,recovery/root)
-
 ## Device identifier. This must come after all inclusions
 PRODUCT_NAME := omni_SDM439
 PRODUCT_DEVICE := SDM439
