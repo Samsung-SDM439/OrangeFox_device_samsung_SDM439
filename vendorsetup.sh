@@ -77,7 +77,7 @@ if [ "$1" = "$FDEVICE" -o "$FOX_BUILD_DEVICE" = "$FDEVICE" ]; then
 	# R11.1 Settings
 	export FOX_VERSION="R11.1_0"
 	export OF_MAINTAINER="Sushrut1101"
-	export OF_MAINTAINER="misc/Sushrut1101.png"
+	export OF_MAINTAINER_AVATAR="misc/Sushrut1101.png"
 
 	# Run a Process after Formatting Data to Recreate /data/media/0 (only when forced-encryption is being disabled)
 	export OF_RUN_POST_FORMAT_PROCESS=1
