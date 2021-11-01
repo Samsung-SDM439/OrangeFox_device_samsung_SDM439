@@ -24,3 +24,17 @@ load_a01q()
 project=$(ro.boot.em.model)
 echo $project
 
+case $project in
+    "SM-M015G")
+        load_m01q
+        ;;
+    "SM-A015G")
+        load_a01q
+        ;;
+    *)
+        load_m01q
+        ;;
+esac
+
+exit 0
+
