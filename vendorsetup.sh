@@ -73,6 +73,7 @@ if [ "$1" = "$FDEVICE" -o "$FOX_BUILD_DEVICE" = "$FDEVICE" ]; then
 	export OF_STATUS_INDENT_RIGHT=52
 	export OF_CLOCK_POS=1
 	export OF_HIDE_NOTCH=1
+	export OF_ALLOW_DISABLE_NAVBAR=0
 	
 	# R11.1 Settings
 	export FOX_VERSION="R11.1_0"
