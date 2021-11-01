@@ -21,3 +21,6 @@ load_a01q()
 
 }
 
+project=$(ro.boot.em.model)
+echo $project
+
