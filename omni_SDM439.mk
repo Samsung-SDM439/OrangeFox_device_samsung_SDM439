@@ -26,6 +26,9 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit language packages
 $(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
 
+# Inherit from SDM439 Device
+$(call inherit-product, $(LOCAL_PATH)/device.mk)
+
 ## Device identifier. This must come after all inclusions
 PRODUCT_NAME := omni_SDM439
 PRODUCT_DEVICE := SDM439
