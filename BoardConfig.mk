@@ -99,8 +99,8 @@ BOARD_RECOVERYIMAGE_PARTITION_SIZE := 64000000 # Less than 64 MB
 # Dynamic Partitions
 BOARD_SUPER_PARTITION_SIZE := 3945791488
 BOARD_SUPER_PARTITION_GROUPS := qti_dynamic_partitions
-board_qti_dynamic_partitions_size := 3945791488
-board_qti_dynamic_partitions_partition_list := \
+BOARD_QTI_DYNAMIC_PARTITIONS_SIZE := 3945791488
+BOARD_QTI_DYNAMIC_PARTITIONS_PARTITION_LIST := \
 	system \
 	vendor \
 	product \
