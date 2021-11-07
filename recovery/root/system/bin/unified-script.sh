@@ -3,7 +3,6 @@
 
 load_m01q()
 {
-    resetprop "ro.product.model" "SM-M015G"
     resetprop "ro.product.name" "m01q"
     resetprop "ro.build.product" "m01q"
     resetprop "ro.product.device" "m01q"
@@ -13,7 +12,6 @@ load_m01q()
 
 load_a01q()
 {
-    resetprop "ro.product.model" "SM-A015G"
     resetprop "ro.product.name" "a01q"
     resetprop "ro.build.product" "a01q"
     resetprop "ro.product.device" "a01q"
@@ -23,6 +21,8 @@ load_a01q()
 
 project=$(ro.boot.em.model)
 echo $project
+
+resetprop "ro.product.model" "$project"
 
 case $project in
     "SM-M015G")
